@@ -1,3 +1,4 @@
 [submodule "libfrser"]
 	path = libfrser
-	url = https://github.com/urjaman/libfrser.git
+	url = https://github.com/jevinskie/libfrser-teensy4
+	branch = teensy4

@@ -18,12 +18,12 @@
 ## Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 ##
 
-PROJECT=frser-duino
+PROJECT=frser-duino-teensy4
 DEPS=uart.h main.h Makefile
 SOURCES=main.c uart.c spihw.c
-CC=avr-gcc
-LD=avr-ld
-OBJCOPY=avr-objcopy
+CC=arm-none-eabi-gcc
+LD=arm-none-eabi-ld
+OBJCOPY=arm-none-eabi-objcopy
 MMCU ?= atmega328p
 AVRDUDE_MCU ?= m328p
 AVRDUDE_PROGRAMMER ?= arduino

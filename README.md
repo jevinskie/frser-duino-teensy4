@@ -1,9 +1,7 @@
-frser-duino
+frser-duino-teensy4
 ===========
 
-Alternative code to serprog-duino.  
-We're in process of melding all the good bits of
-serprog-duino into frser-duino and deprecating serprog-duino.
+Alternative code to serprog-duino, ported to Teensy 4.1
 
 Available targets (same as with serprog-duino):
 
