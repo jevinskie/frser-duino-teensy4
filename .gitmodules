@@ -2,7 +2,7 @@
 	path = libfrser
 	url = https://github.com/jevinskie/libfrser-teensy4
 	branch = teensy4
-[submodule "Arduino-Makefile-Teensy4"]
-	path = Arduino-Makefile-Teensy4
-	url = https://github.com/jevinskie/Arduino-Makefile-Teensy4
-	branch = teensy4
+[submodule "teensyduino-cores"]
+	path = teensyduino-cores
+	url = https://github.com/jevinskie/teensyduino-cores-jevtweaks
+	branch = jev/main

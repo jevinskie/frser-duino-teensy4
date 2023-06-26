@@ -1,4 +1,6 @@
+*.d
 *.o
 *.out
 *.bin
-serialprogrammer
+*.elf
+*.hex
