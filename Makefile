@@ -2,7 +2,7 @@ TEENSY_VER := 4.1
 TARGET := frser-duino-teensy4
 
 ifeq ($(OS),Windows_NT)
-    ARDUINOPATH := $(LocalAppData)/Arduino15
+    ARDUINOPATH := $(LOCALAPPDATA)/Arduino15
 else
     UNAME_S := $(shell uname -s)
     ifeq ($(UNAME_S),Linux)
